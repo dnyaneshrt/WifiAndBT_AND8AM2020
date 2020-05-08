@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:id="@+id/s_wifi"
+        android:text="Wifi "
+        android:textSize="20sp"
+        android:layout_weight="0.1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="GetWifiDevices"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:id="@+id/getwifi"
+        android:layout_weight="0.1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="GetPairedWifiDevices"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:id="@+id/pairedwifi"
+        android:layout_weight="0.1"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:id="@+id/lview"/>
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:id="@+id/s_bt"
+        android:text="Bluetooth "
+        android:textSize="20sp"
+        android:layout_weight="0.1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="GetBTDevices"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:id="@+id/getbt"
+        android:layout_weight="0.1"/>
+
+</LinearLayout>
